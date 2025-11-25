@@ -1140,6 +1140,8 @@ select option:checked {
     align-items: center;
     flex-wrap: nowrap;
     gap: 8px;
+    padding: 0 20px; /* Add horizontal padding/margin to header */
+    max-width: 100%;
   }
   
   .brand {
@@ -1151,6 +1153,7 @@ select option:checked {
   
   .cta {
     flex: 0 0 auto;
+    margin-left: auto; /* Push button to the right */
   }
   
   .brand-text h1 {
@@ -1175,6 +1178,7 @@ select option:checked {
     border-radius: 20px;
     white-space: nowrap;
     color: black;
+    margin-right: 40px; /* Add margin to prevent button from going too far right */
   }
   
   /* Mobile Slideshow Optimizations */
