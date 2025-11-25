@@ -1134,13 +1134,23 @@ select option:checked {
   }
   
   .header-inner {
-    flex-wrap: wrap;
-    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
   }
   
   .brand {
-    flex: 1;
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
     min-width: 0;
+  }
+  
+  .cta {
+    flex: 0 0 auto;
   }
   
   .brand-text h1 {
